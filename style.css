@@ -37,10 +37,12 @@ section {
 article {
     background-color: #777;
     color: #ebebeb;
-    margin-top: 20px;
+    margin-top: 40px;
     height: 200px;
-    width:400px;
-    padding: 10px;
+    width:350px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 20px
 }
 h1 {
     background-color: #ebebeb;
@@ -59,8 +61,10 @@ p {
 aside {
     background-color: #ebebeb;
     width: 400px;
-    height: 300px;
+    height: 20px;
     margin-bottom: 20px;
+    padding-top: 80px;
+    padding-bottom: 200px;
     float: right;
 }
 /*-------------------END------------------*/
