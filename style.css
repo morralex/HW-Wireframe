@@ -1,4 +1,4 @@
-/**---------------------------**/
+/**------------- TOP --------------**/
 
 body {
     font-family: 'Courier New', Courier, monospace;
@@ -6,6 +6,7 @@ body {
     background:#777;
     width: 960px;
     font-size: 18px;
+    text-align: center;
 }
 
 header {
@@ -15,26 +16,51 @@ header {
     margin-bottom: 10px;
 }
 nav {
-    background-color:aqua;
+    background-color: #ebebeb;
     padding: 20px;
     height: 20px; 
-    margin-bottom: 10px;   
+    margin-bottom: 20px;   
+}
+/* --------------- box within a box ----------*/
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 section {
-    background-color:greenyellow;
+    background-color: #ebebeb;
+    margin-bottom: 20px;
+    height: 300px;
+    float: left;
 }
-aside {
-    background-color: powderblue;
-    float: right;
+article {
+    background-color: #777;
+    color: #ebebeb;
+    margin-top: 20px;
 }
 h1 {
-    background-color: orange;
-    color: coral
+    background-color: #ebebeb;
+    color: #777;
+    padding: 20px;
+    width: 400px;
 }
 p {
     background-color: bisque;
-    color: cornflowerblue
+    color: cornflowerblue;
+    margin-bottom: 20px;
+    padding: 40px;
 }
+/* -------------- Aside ------------------*/
+aside {
+    background-color: powderblue;
+    width: 400px;
+    height: 100px;
+    margin-bottom: 20px;
+    float: left;
+}
+/*-------------------END------------------*/
 footer {
     background-color: #ebebeb;
+    height: 50px;
+    padding: 20px;
 }
