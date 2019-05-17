@@ -31,32 +31,37 @@ section {
     background-color: #ebebeb;
     margin-bottom: 20px;
     height: 300px;
+    width: 495px;
     float: left;
 }
 article {
     background-color: #777;
     color: #ebebeb;
     margin-top: 20px;
+    height: 200px;
+    width:400px;
+    padding: 10px;
 }
 h1 {
     background-color: #ebebeb;
     color: #777;
     padding: 20px;
-    width: 400px;
+    width: 300px;
 }
 p {
-    background-color: bisque;
-    color: cornflowerblue;
-    margin-bottom: 20px;
-    padding: 40px;
+    background-color: #ebebeb;
+    color: #777;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 300px;
 }
 /* -------------- Aside ------------------*/
 aside {
-    background-color: powderblue;
+    background-color: #ebebeb;
     width: 400px;
-    height: 100px;
+    height: 300px;
     margin-bottom: 20px;
-    float: left;
+    float: right;
 }
 /*-------------------END------------------*/
 footer {
